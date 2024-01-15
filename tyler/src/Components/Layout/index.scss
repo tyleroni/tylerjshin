@@ -3,6 +3,12 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    background-image: url("../../assets/images/Portfolio_Background.png");
+    background-attachment: absolute;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    margin: -60px;
+    background-size: cover;
 }
 
 .top-tags {
@@ -21,7 +27,7 @@
     width: 90%;
     max-height: 100%;
     justify-content: left;
-    display: grid;
+//    display: grid;
     will-change: contents;
     height: auto;
     min-height: 566px;
@@ -30,7 +36,7 @@
     top:5%;
     margin: 0 auto;
     z-index: 1;
-    transform-style: preserve-3d;
+//    transform-style: preserve-3d;
 //    animation: 
  //       typing 2s steps(33),
   //      blink-caret .4s step-end infinite alternate;
@@ -40,3 +46,9 @@
     from {width: 0}
     to { width: 100%}
 }
+
+//@keyframes blink-caret {
+ //   0% {border-right-color: transparent}
+  //  50% {border-right-color: black}
+   // 100% {border-right-color: transparent}
+//}
