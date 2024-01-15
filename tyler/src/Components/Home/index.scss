@@ -1,11 +1,70 @@
 .home-page {
+    max-height: 100%;
+
     .text-zone {
+//        overflow: hidden;
+//        white-space: nowrap;
         top: 50%;
         position: absolute;
-        left: 10%;
+        left: 10vw;
         transform: translateY(-50%);
-        width: 40%;
+//        width: 0;
         max-height: 90%;
+//        animation:
+//            typing 3s steps(31, end),
+ //           blink-caret .75s step-end infinite;
+
+//        animation-fill-mode: forwards;
+    }
+    .text-zone2 {
+        overflow:hidden;
+//        background-color: #b3b3b3;
+        white-space: nowrap;
+        top:-100%;
+        position: absolute;
+        left: 0vw;
+        transform: translateY(-70%);
+        width: 0;
+        max-height: 100%;
+        animation:
+            typing 1s steps(3),
+            blink-caret .75s step-end infinite;
+        animation-delay: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    
+    .text-zone3 {
+        overflow: hidden;
+        white-space: nowrap;
+        top:-15%;
+        position: absolute;
+        left: 0vw;
+        transform: translateY(-70%);
+        width: 0;
+        max-height: 100%;
+
+        animation:
+            typing 2s steps(25, end),
+            blink-caret 1s step-end infinite;
+        animation-delay: 2s;
+        animation-fill-mode: forwards;
+    }
+
+    .text-zone4 {
+        overflow:hidden;
+        white-space: nowrap;
+        top:55%;
+        position: absolute;
+        left: 0vw;
+        transform: translateY(-50%);
+        width: 0;
+        max-height: 100%;
+        animation:
+            typing 2s steps(13),
+            blink-caret .75s step-end infinite;
+        animation-delay: 4s;
+        animation-fill-mode: forwards;
     }
 
     h1 {
@@ -13,10 +72,10 @@
         font-size: 53px;
         margin: 0;
         font-family:'Courier New', Courier, monospace;
-        font-weight: 400;
+        font-weight: 600;
 
         &::before {
-            content: '<h1>';
+//          content: '<h1>';
             font-family:'Courier New, Courier, monospace';
             color: white;
             font-size:18px;
@@ -27,7 +86,7 @@
         }
 
         &::after {
-            content: '<h1>';
+//          content: '<h1>';
             font-family:'Courier New, Courier, monospace';
             font-size: 18px;
             position: absolute;
@@ -37,4 +96,45 @@
             opacity: .6;
         }
     }
+    h2 {
+        color: #8d8d8d;
+        overflow: hidden;
+        white-space: nowrap;
+        position: relative;
+        top: 50px;
+        width: 0;
+        margin-top: 20px;
+        font-size: 12px;
+        font-family:'Times New Roman, Times, serif';
+        font-weight: 600;
+        letter-spacing: 4px;
+        animation: 
+            typing 4s steps(50),
+            blink-caret .75s step-end infinite;
+            animation-delay: 7s;
+        animation-fill-mode: forwards;
+        
+    }
 }
+
+//    .flat-button {
+//        color: #8d8d8d;
+//        overflow: hidden;
+//        white-space: nowrap;
+//        position: relative;
+//        top: 50px;
+//        width: 0;
+//        margin-top: 20px;
+///        font-weight: 400;
+//        font-size: 11px;
+//        font-family:'Times New Roman, Times, serif';
+ //       letter-spacing: 4px;
+ //       text-decoration: none;
+ //       animation: 
+ //           typing 1.5s steps(10),
+ //           blink-caret .75s step-end infinite;
+ //           animation-delay: 10s;
+ //       animation-fill-mode: forwards;
+ //       
+ //   }
+
