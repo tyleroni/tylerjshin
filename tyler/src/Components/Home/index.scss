@@ -1,0 +1,40 @@
+.home-page {
+    .text-zone {
+        top: 50%;
+        position: absolute;
+        left: 10%;
+        transform: translateY(-50%);
+        width: 40%;
+        max-height: 90%;
+    }
+
+    h1 {
+        color: white;
+        font-size: 53px;
+        margin: 0;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: 400;
+
+        &::before {
+            content: '<h1>';
+            font-family:'Courier New, Courier, monospace';
+            color: white;
+            font-size:18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: .6;
+        }
+
+        &::after {
+            content: '<h1>';
+            font-family:'Courier New, Courier, monospace';
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: .6;
+        }
+    }
+}
