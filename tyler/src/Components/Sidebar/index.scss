@@ -36,7 +36,7 @@
 
 .nav-bar2 {
     position: absolute; 
-    width: 57.17vw;
+    width: 56.3vw;
     box-sizing: border-box;
     display: flexbox;
     background-color: #b3b3b3;
@@ -67,6 +67,14 @@
     font-size: 22px;
 }
 
+.nav-bar2 a:active {
+    background-color: #969696;
+}
+
+.nav-bar2 a:focus {
+    background-color: #969696;
+}
+
 .nav-bar2 ul {
     padding: 0px 7px 0px 7px;
     margin: 10px 0px 0px;
@@ -84,7 +92,14 @@
     border-radius: 1px;
 }
 
-.nav-bar2 li.active {
+.nav-bar2 li:active {
     //border-color: #ffffff;
-    border-right-color: #000;
+    //border-right-color: #000;
+    color: #7a1717;
+}
+
+.nav-bar2 li:focus {
+    //border-color: #ffffff;
+    //border-right-color: #000;
+    color: #a8a8a8;
 }

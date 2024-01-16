@@ -25,13 +25,13 @@ const Sidebar = () => (
         <nav className = 'nav-bar2'>
             <ul>
                 <li className='active'>
-                    <a href='/home' className = 'active'>Home</a>
+                    <a href='/' className = 'active'>Home</a>
                 </li>
                 <li>
                     <a href='/projects' className = 'active'>Projects</a>
                 </li>
                 <li>
-                    <a href='/about' className = 'active'>About Me</a>
+                    <a href='/about' className = 'active'>Resume</a>
                 </li>
                 <li>
                     <a href='/contact' className = 'active'>Contact</a>
