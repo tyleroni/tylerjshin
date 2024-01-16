@@ -4,13 +4,17 @@ $primary-color: #ffd700;
 
 @font-face {
   font-family: 'Minecraft';
-  src: url('./assets/fonts/Minecraft.ttf') format('ttf');
+  src: url('./assets/fonts/Minecraft.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Pixel';
-  src: url('./assets/fonts/Heading.ttf') format('ttf');
+  src: url('./assets/fonts/Heading.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'tech';
+  src: url('./assets/fonts/VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
 
 

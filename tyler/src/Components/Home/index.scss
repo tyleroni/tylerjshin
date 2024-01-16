@@ -1,18 +1,42 @@
 .home-page {
     //max-height: 100%;
 
-    .text-zone {
-        top: 65%;
+    z-index: 1;
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        padding: 0% 0% 47vh 0%;
+        margin: 8.6% 1.8% 0% 3.2%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+
+    .windows-gif {
         position: absolute;
-        left: 15vw;
+        scale: 70%;
+        left: 25vw;
+        bottom: 8vh;
+        animation: fadeIn 1s 9s backwards;
+        white-space: nowrap;  
+        z-index: 0;
+    }
+
+    .text-zone {
+        top: 60%;
+        position: absolute;
+        left: 6.5vw;
         max-height: 90%;
-        width: 100%;
+        width: 80%;
+        z-index: 1;
     }
     .text-zone2 {
         overflow:hidden;
         white-space: nowrap;
 //        border-right: .15em solid white;
-        top:-120%;
+        top:-250%;
+        letter-spacing: 1px;
+        font-family: 'tech';
         position: absolute;
         left: 0vw;
         width: 0;
@@ -35,13 +59,15 @@
     .text-zone3 {
         overflow: hidden;
         white-space: nowrap;
-        top:-35%;
-        position: absolute;
+        top:-165%;
+        font-family: 'tech';
+        letter-spacing: 1px;
         left: 0vw;
+        position: absolute;
         width: 0;
         max-height: 100%;
         animation:
-            typing 4s steps(50, end),
+            typing 2s steps(50, end),
             blink-caret 3s step-end infinite;
             animation-delay: 2s;
         animation-fill-mode: forwards;
@@ -50,20 +76,22 @@
     .text-zone4 {
         overflow:hidden;
         white-space: nowrap;
-        top:45%;
-        position: absolute;
+        top:-85%;
+        letter-spacing: 1px;
+        font-family: 'tech';
         left: 0vw;
+        position: absolute;
         width: 0;
         max-height: 100%;
         animation:
-            typing 4.5s steps(50, end),
+            typing 2.5s steps(50, end),
             blink-caret .75s step-end infinite;
             animation-delay: 4s;
         animation-fill-mode: forwards;
     }
 
     h1 {
-        color: white;
+        color: black;
         font-size: 53px;
         margin: 0;
         font-family:'Courier New', Courier, monospace;
@@ -71,7 +99,7 @@
 
         &::before {
             font-family:'Courier New, Courier, monospace';
-            color: white;
+            color: black;
             font-size:18px;
             position: absolute;
             margin-top: -40px;
@@ -90,19 +118,20 @@
         }
     }
     h2 {
-        color: #b3b3b3;
+        color: black;
         overflow: hidden;
         white-space: nowrap;
         position: relative;
-        top: 75px;
+        top: -250x;
+        font-family: 'tech';
         width: 0;
-        margin-top: 20px;
+        //margin-top: 20px;
         font-size: 15px;
-        font-family:'Times New Roman, Times, serif';
+        font-family:'tech';
         font-weight: 600;
         letter-spacing: 4px;
         animation: 
-            typing 4s steps(70, end),
+            typing 3s steps(70, end),
             blink-caret .75s step-end infinite;
             animation-delay: 6s;
         animation-fill-mode: forwards;
@@ -111,24 +140,24 @@
 
 
     .flat-button {
-        color: white;
+        color: black;
         position: relative;
-        top: 120px;
+        top: 30px;
         width: 0;
-        margin: 20px 0px 0px 30px;
+        margin: 20px 0px 0px 0px;
         font-weight: 400;
         font-size: 11px;
-        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        letter-spacing: 4px;
+        font-family:'tech';
+        letter-spacing: 3px;
         text-decoration: none;
         padding: 10px 18px;
         border: 1px solid;
         border-color: white black black white;
         background-color: #b3b3b3; 
-        animation: fadeIn 1s 8s backwards;
+        animation: fadeIn 1s 9s backwards;
         white-space: nowrap;   
         &:hover {
-            background: #b3b3b3;
+            background: #a8a8a8;
             color: #333;
         }   
     }
