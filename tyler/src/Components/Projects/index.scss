@@ -10,12 +10,9 @@
     background-size: cover;
 }
 
-.container {
-    padding: 0;
-}
 
 .text-zone-h1 {
-    margin: 4% 0% 0% 8%;
+    margin: 7% 0% 0% 4.5%;
     padding: 0% 0% 2%;
     font-family: 'tech';
     font-size: 40px;
@@ -27,15 +24,211 @@
     font-family: 'tech';
     margin: -1% 0% -15% 0%;
     padding: 0% 4% 0% 4%;
+    display: block;
 }
 .backgroundclr {
     background-color: #b3b3b3;
     background-attachment: absolute;
     overflow-y:scroll;
-    //overflow-x:hidden;
+    overflow-x: hidden;
+    max-width: auto;
+    max-height: 480px;
     padding: 0% 0% 0% 0%;
     margin: 8.6% 1.8% -6% 3.3%;
     border: 1px solid;
     border-color: white black black white;
     z-index: 4;
 }
+
+.project {
+    max-width: 100%;
+    height: 300px;
+    margin: -51% 0% 0% 0%;
+    padding: 25px;
+    white-space: nowrap;
+    scale: 33%;
+}
+
+.project-button {
+    text-decoration: none;
+    font-family: 'tech';
+    color: black;
+    font-size: 30pt;
+    border: 2px solid; 
+    border-color: black;
+    padding: 1% 4%;
+
+}
+
+.case-study-1 {
+    display: inline-block;
+    
+}
+
+.case-study-2 {
+    display:inline-block;
+    margin: 0% 0% 0% 0%;
+}
+
+//MIND TREASURES CSS
+
+.mind-treasures {
+    margin: -25% 0% 0% -33.5%;
+    padding: 5% 5% 85% 5%;
+    background-color: transparent;
+    background-origin:padding-box;
+    background-position: center;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: white black black white;
+}
+
+.mindtreasureimg {
+    border: 2px solid;
+    border-color: black;
+}
+
+.mindtreasureh {
+    font-family: 'tech';
+    font-size: 90px;
+    color: black;
+}
+
+.mindtreasurep {
+    font-family: 'tech';
+    font-size: 30pt;
+    margin: 0% 0% 5% 0%;
+    width: 1280px;
+    white-space: wrap;
+}
+
+.mindtreasureb {
+    margin: 0% 0% 0% 35%;
+}
+
+.mindtreasureb:hover {
+    background-color: #979797;
+}
+
+// IMPROMPTU CSS
+
+.impromptu {
+    margin: -113.5% -30% 0% 5%;
+    padding: 5% 5% 85% 5%;
+    background-color: transparent;
+    background-origin:padding-box;
+    background-position: center;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: white black black white;
+}
+
+.impromptuimg {
+    border: 2px solid;
+    border-color: black;
+}
+
+.impromptuh {
+    font-family: 'tech';
+    font-size: 90px;
+    color: black;
+}
+
+.impromptup {
+    font-family: 'tech';
+    font-size: 30pt;
+    margin: 0% 0% 5% 0%;
+    width: 1280px;
+    white-space: wrap;
+}
+
+.impromptub {
+    margin: 0% 0% 0% 35%;
+}
+
+.impromptub:hover {
+    background-color: #979797;
+}
+
+// QUICKFIT CSS
+
+.quickfit {
+    margin: -74% 0% 0% -33.5%;
+    padding: 5% 5% 85% 5%;
+    background-color: transparent;
+    background-origin:padding-box;
+    background-position: center;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: white black black white;
+}
+
+.quickfitimg {
+    border: 2px solid;
+    border-color: black;
+}
+
+.quickfith {
+    font-family: 'tech';
+    font-size: 90px;
+    color: black;
+}
+
+.quickfitp {
+    font-family: 'tech';
+    font-size: 30pt;
+    margin: 0% 0% 5% 0%;
+    width: 1280px;
+    white-space: wrap;
+}
+
+.quickfitb {
+    margin: 0% 0% 0% 35%;
+}
+
+.quickfitb:hover {
+    background-color: #979797;
+}
+
+// SUGARCUBE CSS
+
+.sugarcube {
+    margin: -113.5% -30% 0% 5%;
+    padding: 5% 5% 85% 5%;
+    background-color: transparent;
+    background-origin:padding-box;
+    background-position: center;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: white black black white;
+}
+
+.sugarcubeimg {
+    border: 2px solid;
+    border-color: black;
+}
+
+.sugarcubeh {
+    font-family: 'tech';
+    font-size: 90px;
+    color: black;
+}
+
+.sugarcubep {
+    font-family: 'tech';
+    font-size: 30pt;
+    margin: 0% 0% 5% 0%;
+    width: 1280px;
+    white-space: wrap;
+}
+
+.sugarcubeb {
+    margin: 0% 0% 0% 35%;
+}
+
+.sugarcubeb:hover {
+    background-color: #979797;
+}
+
+
+
