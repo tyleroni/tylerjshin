@@ -50,7 +50,7 @@ const Projects = () => {
                             <img src = {sugarcube} alt = 'SugarCube Display' className = 'sugarcubeimg'></img>
                             <h1 className = 'sugarcubeh'>SugarCube:</h1>
                             <p className = 'sugarcubep'>Our goal with SugarCube was to approach issues surrounding underrepresented communities, specifically the financially disadvantaged. Through our user research and surveys we saw that about 40% of kids in highschool did not have easy access to reproducitve care products. Through SugarCube, we were able explore ways for discreet and easy access to contraceptives </p>
-                            <a href = '/quickfit/case/study' className = 'project-button sugarcubeb'>Learn More!</a>
+                            <a href = '/sugarcube/case/study' className = 'project-button sugarcubeb'>Learn More!</a>
                         </div>
                     
                     </div>
