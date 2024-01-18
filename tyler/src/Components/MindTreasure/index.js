@@ -17,7 +17,7 @@ const MindTreasure = () => {
         <div className = 'mindtreasure-layout'>
             <div className = 'container mindtreasure-page'>
                 <div className = 'backgroundclr-mindtreasure'>
-                    <h1 className = 'text-zone-h1 mindtreasureh'>Mind Treasures</h1>
+                    <h1 className = 'text-zone-h1 casestudyh'>Mind Treasures</h1>
                     <a href = '/projects' className = 'button backbutton'>
                         <img src = {backbutton} alt = 'Back Button'></img>
                     </a>
