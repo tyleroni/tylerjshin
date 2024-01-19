@@ -19,7 +19,7 @@ function App() {
             <Route index element={<Home />} />
             <Route path = '/projects' element = {<Projects />} />
             <Route path = '/contact' element = {<Contact />} />
-            <Route path = '/mind/treasure/case/study' element = {<MindTreasure />} />
+            <Route path = '/mindtreasure/case/study' element = {<MindTreasure />} />
             <Route path = '/impromptu/case/study' element = {<Impromptu />} />
             <Route path = '/quickfit/case/study' element = {<QuickFit />} />
             <Route path = '/sugarcube/case/study' element = {<SugarCube />} />

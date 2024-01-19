@@ -24,3 +24,33 @@
     border-color: white black black white;
     z-index: 4;
 }
+
+.hifi-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.hifiimg-container {
+    width: 100%;
+    padding-right: 0%;
+    display:flex;
+}
+
+.hifi-text {
+    width: 100%;
+    height: auto;
+    padding-left: 2%;
+}
+
+.sugarcube1img {
+    width: 40%;
+    height: auto;
+    padding-left: 2%;
+}
+
+.sugarcube3img {
+    width: 40%;
+    height: auto;
+    padding-left: 5%;
+}

@@ -1,5 +1,5 @@
 import './index.scss'
-import background from '../../assets/images/Portfolio_Background.png';
+//import background from '../../assets/images/Portfolio_Background.png';
 import mindTreasures from '../../assets/images/mind_treasures.png';
 import quickfit from '../../assets/images/quickfit.png';
 import impromptu from '../../assets/images/impromptu.png';
@@ -30,7 +30,7 @@ const Projects = () => {
                             <img src = {mindTreasures} alt = 'Mind Treasures Display' className = 'mindtreasureimg'></img>
                             <h1 className = 'mindtreasureh'>Mind Treasures:</h1>
                             <p className = 'mindtreasurep'>At Mind Treasures, I worked as their Web Developer, working to revamp their website including a complete visual makeover, optimizing the layout, performing a content audit, and streamlining navigation, through HTML/CSS/JS, to ensure the best user experince possible while increasing the conversion rate for the financial literacy program that they offer. </p>
-                            <a href = '/mind/treasure/case/study' className = 'project-button mindtreasureb'>Learn More!</a>
+                            <a href = '/mindtreasure/case/study' className = 'project-button mindtreasureb'>Learn More!</a>
                         </div>
                         <div className = 'project impromptu'>
                             <img src = {impromptu} alt = 'Impromptu Display' className = 'impromptuimg'></img>

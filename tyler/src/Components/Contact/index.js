@@ -1,5 +1,4 @@
 import './index.scss'
-import background from '../../assets/images/Portfolio_Background.png';
 
 
 const Contact = () => {
