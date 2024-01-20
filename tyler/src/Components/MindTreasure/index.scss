@@ -18,7 +18,7 @@
     max-width: auto;
     max-height: 150px;
     min-height: 150px;
-    padding: 0% 0% 27.5% 0%;
+    padding: 0% 0% 31.5% 0%;
     margin: 8.6% 1.8% 0% 3.3%;
     border: 1px solid;
     border-color: white black black white;
@@ -28,12 +28,13 @@
 .button {
     display: inline-block;
     position: absolute;
-    top: 87%;
+    top: 90%;
 }
 
 .backbutton {
     left: 80%;
     background-color: transparent;
+    
 }
 
 .backbutton:hover {
@@ -42,6 +43,7 @@
 
 .nextbutton {
     left: 86.4%;
+    padding-left:.01%;
 }
 
 .casestudyh {
@@ -136,4 +138,28 @@
 .contactpageimg {
     width: 68%;
     height: auto;
+}
+
+@media (max-width: 1600px) {
+    .button {
+        top: 84%;
+    }
+    .nextbutton {
+        padding-left: 3%;
+    }
+    
+}
+
+@media (max-width: 1570px) {
+    .button {
+        top: 84%;
+    }
+    
+}
+
+@media (max-width: 1460px) {
+    .button {
+        top: 80%;
+    }
+    
 }

@@ -4,30 +4,36 @@
     position: absolute;
 }
 
+.heading {
+    padding-top: 5%;
+}
 
 .text-zone-h1 {
     margin: 7% 0% 0% 4.5%;
     padding: 0% 0% 2%;
-    font-family: 'tech';
+    font-family: 'w95';
     font-size: 40px;
     color: black;
-    
+    top: 20%;
+    //position:static;
 }
 .text-zone-p {
     font-size: 25pt;
-    font-family: 'tech';
+    font-family: 'w95';
     margin: -1% 0% -15% 0%;
     padding: 0% 4% 0% 4%;
     display: block;
     color: black;
 }
+
+
 .backgroundclr {
     background-color: #b3b3b3;
     background-attachment: absolute;
     overflow-y:scroll;
     overflow-x: hidden;
     max-width: auto;
-    max-height: 480px;
+    max-height: 80%;
     padding: 0% 0% 0% 0%;
     margin: 8.6% 1.8% -6% 3.3%;
     border: 1px solid;
@@ -36,65 +42,108 @@
 }
 
 .project {
-    max-width: 100%;
-    height: 300px;
-    margin: -51% 0% 0% 0%;
+    //max-width: 100%;
+    width: 48%;
+    //height: 300px;
+    margin: 0% 0% 0% 0%;
     padding: 25px;
-    white-space: nowrap;
+    white-space: wrap;
     scale: 33%;
+    display: block;
 }
 
 .project-button {
     text-decoration: none;
-    font-family: 'tech';
+    font-family: 'w95';
     color: black;
-    font-size: 30pt;
-    border: 2px solid; 
+    font-size: 10pt;
+    border: 1px solid; 
     border-color: black;
-    padding: 1% 4%;
-
+    padding: 1% 5%;
+    left: 0%;
+    
 }
 
-.case-study-1 {
-    display: inline-block;
-    margin: -15% 0% 0% 0%;
+.case-study1 {
+    display: flex;
+    
+    width: 100%;
+    padding-bottom: 2%;
 }
 
-.case-study-2 {
-    display:inline-block;
-    margin: 0% 0% 0% 0%;
+.case-study2 {
+    display: flex;
+    
+    width: 100%;
+    padding-top: 2%;
 }
 
-//MIND TREASURES CSS
-
-.mind-treasures {
-    margin: -25% 0% 0% -33.5%;
-    padding: 5% 5% 85% 5%;
+.mindtreasure {
+    width: 46%;
+    height:auto;
     background-color: transparent;
     background-origin:padding-box;
     background-position: center;
-    overflow: hidden;
     border: 1px solid;
     border-color: white black black white;
+    padding: 2%;
+    margin-right: 2%;;
 }
 
-.mindtreasureimg {
-    border: 2px solid;
+.img-container {
+    text-align: center;
+    
+}
+
+.mindtreasure-img {
+    width: 90%;
+    height: auto;
+    border: 1px solid;
     border-color: black;
 }
 
+.impromptu {
+    width: 46%;
+    height:auto;
+    background-color: transparent;
+    background-origin:padding-box;
+    background-position: center;
+    border: 1px solid;
+    border-color: white black black white;
+    padding: 2%;
+    margin-left: 2%;
+}
+
+
+.impromptu-img {
+    width: 90%;
+    height: auto;
+    border: 1px solid;
+    border-color: black;
+}
+
+
+
+//MIND TREASURES CSS
+
+
 .mindtreasureh {
     font-family: 'tech';
-    font-size: 90px;
+    font-size: 25px;
     color: black;
+    padding: 0% 0% 0% 0%;
+    width: 100%;
+    white-space: wrap;
+    height: auto;
+    
 }
 
 .mindtreasurep {
     font-family: 'tech';
-    font-size: 30pt;
+    font-size: 10pt;
     margin: 0% 0% 5% 0%;
-    width: 1280px;
-    white-space: wrap;
+    width: 100%;
+    text-wrap: wrap;
     color:black;
 }
 
@@ -108,34 +157,25 @@
 
 // IMPROMPTU CSS
 
-.impromptu {
-    margin: -113.5% -30% 0% 5%;
-    padding: 5% 5% 85% 5%;
-    background-color: transparent;
-    background-origin:padding-box;
-    background-position: center;
-    overflow: hidden;
-    border: 1px solid;
-    border-color: white black black white;
-}
 
-.impromptuimg {
-    border: 2px solid;
-    border-color: black;
-}
+
+
 
 .impromptuh {
     font-family: 'tech';
-    font-size: 90px;
+    font-size: 25px;
     color: black;
+    width: 100%;
+    white-space: wrap;
+    height: auto;
 }
 
 .impromptup {
     font-family: 'tech';
-    font-size: 30pt;
-    margin: 0% 0% 5% 0%;
-    width: 1280px;
+    font-size: 10pt;
+    width: 100%;
     white-space: wrap;
+    color:black;
 }
 
 .impromptub {
@@ -149,33 +189,37 @@
 // QUICKFIT CSS
 
 .quickfit {
-    margin: -74% 0% 0% -33.5%;
-    padding: 5% 5% 85% 5%;
+    width: 46%;
+    height:auto;
     background-color: transparent;
     background-origin:padding-box;
     background-position: center;
-    overflow: hidden;
     border: 1px solid;
     border-color: white black black white;
+    padding: 2%;
+    margin-right: 2%;
 }
 
-.quickfitimg {
-    border: 2px solid;
+.quickfit-img {
+    width: 90%;
+    height: auto;
+    border: 1px solid;
     border-color: black;
 }
 
 .quickfith {
     font-family: 'tech';
-    font-size: 90px;
+    font-size: 25px;
     color: black;
 }
 
 .quickfitp {
     font-family: 'tech';
-    font-size: 30pt;
+    font-size: 10pt;
     margin: 0% 0% 5% 0%;
-    width: 1280px;
-    white-space: wrap;
+    width: 100%;
+    text-wrap: wrap;
+    color:black;
 }
 
 .quickfitb {
@@ -189,33 +233,37 @@
 // SUGARCUBE CSS
 
 .sugarcube {
-    margin: -113.5% -30% 0% 5%;
-    padding: 5% 5% 85% 5%;
+    width: 46%;
+    height:auto;
     background-color: transparent;
     background-origin:padding-box;
     background-position: center;
-    overflow: hidden;
     border: 1px solid;
     border-color: white black black white;
+    padding: 2%;
+    margin-left: 2%;
 }
 
-.sugarcubeimg {
-    border: 2px solid;
+.sugarcube-img {
+    width: 90%;
+    height: auto;
+    border: 1px solid;
     border-color: black;
 }
 
 .sugarcubeh {
     font-family: 'tech';
-    font-size: 90px;
+    font-size: 25px;
     color: black;
 }
 
 .sugarcubep {
     font-family: 'tech';
-    font-size: 30pt;
+    font-size: 10pt;
     margin: 0% 0% 5% 0%;
-    width: 1280px;
-    white-space: wrap;
+    width: 100%;
+    text-wrap: wrap;
+    color:black;
 }
 
 .sugarcubeb {

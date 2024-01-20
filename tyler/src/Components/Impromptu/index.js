@@ -15,7 +15,7 @@ const Impromptu = () => {
     <>
         <div className = 'impromptu-layout'>
             <div className = 'container impromptu-page'>
-                <div className = 'backgroundclr-impromptu'>
+                <div className = 'backgroundclr-mindtreasure'>
                 <h1 className = 'text-zone-h1 casestudyh'>Impromptu</h1>
                 <a href = '/mindtreasure/case/study' className = 'button backbutton'>
                     <img src = {backbutton} alt = 'Back Button'></img>

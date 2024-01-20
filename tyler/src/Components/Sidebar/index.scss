@@ -1,13 +1,18 @@
 // NAV BAR
-.nav-bar {
+.nav-bar-container {
     background: #000086;
+    width: auto;
     height: auto;
     position: absolute;
-    margin: 8.2% 20% 0% 20%;
+    margin: 6.2% 20% 0% 20%;
     top: 1;
     z-index: 3;
-    min-height: 30px;
+    
 
+}
+
+.nav-bar {
+    display: flex;
 }
 
 .logo {
@@ -25,10 +30,14 @@
     }
 }
 .control-tab {
-    display: inline;
-    margin: 0% 0% 0% 65.5%;
-    padding: 0px 0px 80px 0px;
+    display: block;
+    margin: 0% 0% 0% 0%;
+    padding: 3px 3px 0px 0px;
+    position: relative;
+    text-align: right;
+    
 }
+
 
 .close-icon {
     margin-left: 3px;
@@ -51,12 +60,12 @@
 
 .nav-bar2 a {
     color: #000;
-    font-family: 'Minecraft';
+    font-family: 'tech';
     text-decoration: none;
     height: 75%;
     display: flex;
     align-items: center;
-    padding: .3rem .5rem .5rem .5rem;
+    padding: .3rem .5rem .6rem .5rem;
     margin: 0px 0px 0px 0px;
     border-style: solid;
     border-color: #ffffff;

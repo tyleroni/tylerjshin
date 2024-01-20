@@ -7,31 +7,34 @@ import expandIcon from '../../assets/images/Expand_button.png'
 import minimizeIcon from '../../assets/images/Minimize_button.png'
 
 const Sidebar = () => (
-    <div className = 'nav-bar'>
-        <Link className='logo' to = '/'>
-            <img src={LogoS} alt="Tyler Shin" />
-        </Link>
-        <div className='control-tab'>
-            <Link className='window-icon' to = '/'>
-                <img src={minimizeIcon} alt="Windows Minimize Icon" width = '2%' height = 'auto'/>
+    <div className = 'nav-bar-container'>
+        <div className = 'nav-bar'>
+            <Link className='logo' to = '/'>
+                <img src={LogoS} alt="Tyler Shin" />
             </Link>
-            <Link className='window-icon' to = '/'>
-                <img src={expandIcon} alt="Windows Expand Icon" width = '2.05%' height = 'auto'/>
-            </Link>
-            <Link className='window-icon close-icon' to = '/'>
-                <img src={closeIcon} alt="Windows Close Icon" width = '2%' height = 'auto'/>
-            </Link>
+            <div className='control-tab'>
+                <Link className='window-icon' to = '/'>
+                    <img src={minimizeIcon} alt="Windows Minimize Icon" width = '4%' height = 'auto'/>
+                </Link>
+                <Link className='window-icon' to = '/'>
+                    <img src={expandIcon} alt="Windows Expand Icon" width = '4.05%' height = 'auto'/>
+                </Link>
+                <Link className='window-icon close-icon' to = '/'>
+                    <img src={closeIcon} alt="Windows Close Icon" width = '4%' height = 'auto'/>
+                </Link>
         </ div>
+        </div>
+        
         <nav className = 'nav-bar2'>
             <ul>
                 <li className='active'>
-                    <a href='/' className = 'active'>Home</a>
+                    <a href='/home' className = 'active'>Home</a>
                 </li>
                 <li>
                     <a href='/projects' className = 'active'>Projects</a>
                 </li>
                 <li>
-                    <a href='/about' className = 'active'>Resume</a>
+                    <a href='https://docs.google.com/document/d/1lnx2hq7bfakdbMc2Nbb6yqgPq2Y1QRmPI_T5Jtb4ohQ/edit?usp=sharing' target = '_blank' className = 'active'>Resume</a>
                 </li>
                 <li>
                     <a href='/contact' className = 'active'>Contact</a>
@@ -43,10 +46,3 @@ const Sidebar = () => (
 
 export default Sidebar
 
-//<ul>
-//            <li>
-//                <a target = '_blank' rel = "noreferrer" href="www.linkedin.com/in/tylerjshin">
-//                    <img src = {IconL} alt="Tyler Shin Linkedin" />
-//                </a>
-//            </li>
-//        </ul>

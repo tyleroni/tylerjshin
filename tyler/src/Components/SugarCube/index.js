@@ -26,7 +26,7 @@ const SugarCube = () => {
         <>
             <div className = 'sugarcube-layout'>
                 <div className = 'container sugarcube-page'>
-                    <div className = 'backgroundclr-sugarcube'>
+                    <div className = 'backgroundclr-mindtreasure'>
                         <h1 className = 'text-zone-h1 casestudyh'>SugarCube</h1>
                         <a href = '/quickfit/case/study' className = 'button backbutton'>
                             <img src = {backbutton} alt = 'Back Button'></img>

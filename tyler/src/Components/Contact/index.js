@@ -8,7 +8,9 @@ const Contact = () => {
         <div className = "contact-layout">
             <div className = 'container contact-page'>
                 <div className = 'backgroundclr-contact'>
-                    <h1 className = 'text-zone-h1'>Contact Me</h1>
+                    <div className = 'heading'>
+                       <h1 className = 'text-zone-h1'>Contact Me</h1> 
+                    </div>
                     <div className = 'text-zone-p'>
                         <p>
                             I am open to networking and interested to hear from anybody about job opportunities, ideas or even games. I look forward to having a chat with you! 

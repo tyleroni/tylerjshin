@@ -11,6 +11,25 @@
     background-size: cover;
 }
 
+.socials {
+    width: 100%;
+    position: fixed;
+    top: 86%;
+    left: 86.5%;
+}
+
+.githublogo {
+    width: 2%;
+    height:auto;
+    padding-right: 1%;
+}
+
+
+.linkedinlogo {
+    width: 2%;
+    height:auto;
+}
+
 .top-tags {
     bottom: auto;
     top: 35px;
@@ -24,16 +43,16 @@
 }
 
 .container {
-    width: 60.3%;
-    height: 65%;
+    width: 60.5%;
+    height: 70%;
 //    overflow-y:scroll;
     max-height: 100%;
     justify-content: left;
     will-change: contents;
-    min-height: 566px;
+    min-height: 50%;
     position: absolute;
     opacity: 1;
-    margin: 8% 11% 0% 19.8%;
+    margin: 6% 11% 0% 19.8%;
     z-index: 2;
     background-color: #b3b3b3;
     background-attachment: fixed;
@@ -52,3 +71,93 @@
   //  50% {border-right-color: black}
    // 100% {border-right-color: transparent}
 //}
+
+
+
+@media (max-width: 1800px) {
+    .page {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url('../../assets/images/Portfolio_Background1700.png');
+        background-attachment: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+    }
+    .socials {
+        width: 100%;
+        position: fixed;
+        top: 84%;
+        left: 85%;
+    }
+
+}
+  
+@media (max-width: 1550px) {
+    .page {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url('../../assets/images/Portfolio_Background1500.png');
+        background-attachment: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+    }
+    .socials {
+        width: 100%;
+        position: fixed;
+        top: 86.5%;
+        left: 90%;
+    }
+}
+
+@media (max-width: 1390px) {
+    .page {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url('../../assets/images/Portfolio_Background1390.png');
+        background-attachment: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+    }
+    .socials {
+        width: 100%;
+        position: fixed;
+        top: 83.8%;
+        left: 90%;
+    }
+    .container {
+        margin: 8% 11% 0% 19.8%;
+        height: 68%;
+        
+    }
+    .nav-bar-container {
+        margin: 8.2% 20% 0% 20%;
+        
+    }
+    .backgroundclr {
+        padding: 0% 0% 53vh 0%;
+        margin: 10.6% 1.8% 0% 3.3%;
+    }
+}
+
+@media (max-width: 1240px) {
+    .page {  
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url('../../assets/images/Portfolio_Background1240.png');
+        background-attachment: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+    }
+}

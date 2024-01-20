@@ -23,7 +23,7 @@ const QuickFit = () => {
         <>
             <div className = 'quickfit-layout'>
                 <div className = 'container quickfit-page'>
-                    <div className = 'backgroundclr-quickfit'>
+                    <div className = 'backgroundclr-mindtreasure'>
                     <h1 className = 'text-zone-h1 casestudyh'>QuickFit</h1>
                     <a href = '/impromptu/case/study' className = 'button backbutton'>
                         <img src = {backbutton} alt = 'Back Button'></img>
@@ -75,7 +75,7 @@ const QuickFit = () => {
                     </div>
                     <h1 className = 'text-zone-h1'>Hi-Fi Prototype</h1>
                     <div className = 'hifi-prototype-container'>
-                            <p className = 'text-zone-p'>With our High Fidelity Prototype came with a <b>new method of interacting</b> with the kiosk. After listening to users after critique, we saw that users were unsure of what they wanted and often times didn’t really know which workouts they wanted. This made us incorporate the recommended exercises tab which now allowed users to select a specific muscle group on screen, and options for workouts targeting that specific muscle group. </p>
+                        <p className = 'text-zone-p'>With our High Fidelity Prototype came with a <b>new method of interacting</b> with the kiosk. After listening to users after critique, we saw that users were unsure of what they wanted and often times didn’t really know which workouts they wanted. This made us incorporate the recommended exercises tab which now allowed users to select a specific muscle group on screen, and options for workouts targeting that specific muscle group. </p>
                         <img src = {hifiprototype1} alt = 'High Fidelity Prototype' className = 'hifiprototype1'></img>
                     </div>
                     <p className = 'text-zone-p'>We made absolutely sure that there would be <b>“easily accessible”</b> information and demonstrations about the exercises and that they would be customizable for all levels of gym goers. </p>

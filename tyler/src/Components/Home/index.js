@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import './index.scss';
 import Logo from '../../assets/images/Windows.gif';
 
+
 const Home = () => {
     return (
             <div className="container home-page">
@@ -21,6 +22,10 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            
+            
+            
+    
     );
 }
 
