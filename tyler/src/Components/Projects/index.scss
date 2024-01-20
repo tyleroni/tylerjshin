@@ -274,5 +274,136 @@
     background-color: #979797;
 }
 
+@media (max-width: 780px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 10%;
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+}
 
+@media (max-width: 805px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 10% !important;
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .heading {
+        padding-top: 10%;
+    }
+}
 
+@media (max-width: 810px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 10% !important;
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .heading {
+        padding-top: 10%;
+    }
+}
+
+@media (max-width: 610px) {
+    .backgroundclr {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        //overflow-y:scroll;
+        //overflow-x:hidden;
+        height: 10% !important;
+        padding: 0% 0% 55vh 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: transparent black black white;
+        z-index: 4;
+    }
+    .heading {
+        padding-top: 10%;
+    }
+    .case-study1 {
+        display: block;
+        
+        width: 100%;
+        padding-bottom: 2%;
+    }
+    
+    .case-study2 {
+        display: block;
+        
+        width: 100%;
+        padding-top: 2%;
+    }
+    .mindtreasure {
+        width: 100%;
+        height:auto;
+        background-color: transparent;
+        background-origin:padding-box;
+        background-position: center;
+        border: 1px solid;
+        border-color: white black black white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-right: 5% !important;
+    }
+    .impromptu {
+        width: 100%;
+        height:auto;
+        background-color: transparent;
+        background-origin:padding-box;
+        background-position: center;
+        border: 1px solid;
+        border-color: white black black white;
+        padding-top: 5% ;
+        padding-bottom: 5%;
+        margin-right: 5% !important;
+        margin-top: 5%;
+        margin-left: 0%;;
+    }
+    .quickfit {
+        width: 100%;
+        height:auto;
+        background-color: transparent;
+        background-origin:padding-box;
+        background-position: center;
+        border: 1px solid;
+        border-color: white black black white;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-right: 5% !important;
+    }
+    .sugarcube {
+        width: 100%;
+        height:auto;
+        background-color: transparent;
+        background-origin:padding-box;
+        background-position: center;
+        border: 1px solid;
+        border-color: white black black white;
+        padding-top: 5% ;
+        padding-bottom: 5%;
+        margin-right: 5% !important;
+        margin-top: 5%;
+        margin-left: 0%;;
+    }
+}

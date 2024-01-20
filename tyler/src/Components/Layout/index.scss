@@ -229,3 +229,106 @@
         left: 85%;
     }
 }
+
+@media (max-width: 1290px) {
+    .page {  
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url('../../assets/images/Portfolio_Background1280x800.png');
+        background-attachment: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+    }
+    .nav-bar-container {
+        margin: 10.7% 20% 0% 20%;
+        
+    }
+    .container {
+        margin: 10.5% 11% 0% 19.8%;
+        height: 62%;
+        
+    }
+    .socials {
+        width: 100%;
+        position: fixed;
+        top: 80.5%;
+        left: 85%;
+    }
+}
+
+@media (max-width: 780px) {
+    .page {  
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: none;
+        background-attachment: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+        
+    }
+    .container {
+        width: 93.5%;
+        height: 70%;
+        max-height: 100%;
+        justify-content: left;
+        will-change: contents;
+        min-height: 50%;
+        position: absolute;
+        opacity: 1;
+        margin: 20% 11% 0% 3.8%;
+        z-index: 2;
+        background-color: #b3b3b3;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        border: 1px solid ;
+        border-color: white black black white;
+    }
+    .nav-bar-container {
+        margin: 20.3% 20% 0% 4%;
+        padding-right: 23.3%;
+    }
+    
+}
+
+@media (max-width: 810px) {
+    .page {  
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: none;
+        background-attachment: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+        
+    }
+    .container {
+        width: 93.5%;
+        height: 70%;
+        max-height: 100%;
+        justify-content: left;
+        will-change: contents;
+        min-height: 50%;
+        position: absolute;
+        opacity: 1;
+        margin: 20% 11% 0% 3.8%;
+        z-index: 2;
+        background-color: #b3b3b3;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        border: 1px solid ;
+        border-color: white black black white;
+    }
+    .nav-bar-container {
+        margin: 20.3% 20% 0% 4%;
+        padding-right: 23.3%;
+    }
+    
+}

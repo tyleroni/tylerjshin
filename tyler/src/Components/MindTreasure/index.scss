@@ -181,4 +181,108 @@
         left: 87.8%;
         padding-left:.01%;
     }
+    
+}
+
+@media (max-width: 810px) {
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 68% 0% !important ;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+    .casestudyh {
+        padding-top: 7%;
+        text-decoration: underline;
+    }
+    .button {
+        top: 90%;
+    }
+    .backbutton {
+        left: 74.3%;
+        padding-left:.01%;
+    }
+    .nextbutton {
+        left: 84.7%;
+        padding-left:.01%;
+    }
+    .text-zone-h2 {
+        padding-top: 0% !important;
+    }
+}
+
+
+@media (max-width: 805px) {
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 86% 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+    .casestudyh {
+        padding-top: 7%;
+        text-decoration: underline;
+    }
+    .button {
+        top: 90%;
+    }
+    .backbutton {
+        left: 74.3%;
+        padding-left:.01%;
+    }
+    .nextbutton {
+        left: 84.7%;
+        padding-left:.01%;
+    }
+    .text-zone-h2 {
+        padding-top: 0% !important;
+    }
+}
+
+@media (max-width: 780px) {
+    .backgroundclr-mindtreasure {
+        background-color: #b3b3b3;
+        background-attachment: absolute;
+        overflow-y:scroll;
+        overflow-x: hidden;
+        max-width: auto;
+        max-height: 150px;
+        min-height: 150px;
+        padding: 0% 0% 90% 0% !important;
+        margin: 8.6% 1.8% -20% 3.3%;
+        border: 1px solid;
+        border-color: white black black white;
+        z-index: 4;
+    }
+    .casestudyh {
+        padding-top: 7%;
+        text-decoration: underline;
+    }
+    .button {
+        top: 87%;
+    }
+    .backbutton {
+        left: 74.3%;
+        padding-left:.01%;
+    }
+    .nextbutton {
+        left: 84.7%;
+        padding-left:.01%;
+    }
 }

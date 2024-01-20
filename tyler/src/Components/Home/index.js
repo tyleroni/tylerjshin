@@ -17,7 +17,7 @@ const Home = () => {
                         <br />
                         <h1 className='text-zone text-zone4'>Web Developer
                         </h1>                
-                        <h2>Frontend Developer / UI/UX Designer / Product Designer</h2>
+                        <h2 className = 'text-zone-5'>Frontend Developer / UI/UX Designer / Product Designer</h2>
                         <Link to ='/contact' className = 'flat-button'>CONTACT ME</Link>
                     </div>
                 </div>

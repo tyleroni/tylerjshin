@@ -118,3 +118,126 @@
         width: 66.6vw;
     }
 }
+
+@media (max-width: 780px) {
+    .nav-bar-container {
+        background: #000086;
+        width: auto;
+        height: auto;
+        position: absolute;
+        margin: 6.2% 18% 0% 20%;
+        top: 1;
+        z-index: 3;
+        
+    
+    }
+    .nav-bar2 {
+        position: absolute; 
+        width: 89vw;
+        box-sizing: border-box;
+        display: flexbox;
+        background-color: #b3b3b3;
+        gap: 2rem;
+        padding: 0% 0% 0% 0%;
+        margin: 0% -2% 0% 3%;
+        align-items: stretch;
+        z-index: 1;
+        border: 1px solid transparent;
+        border-bottom-color: white;
+    }
+    .control-tab {
+        display: block;
+        margin: 0% -33.5% 0% 0%;
+        padding: 3px 3px 0px 0px;
+        position: relative;
+        text-align: right;
+        
+    }
+    
+    
+    .close-icon {
+        margin-left: 3px;
+    }
+}
+
+@media (max-width: 780px) {
+    .nav-bar-container {
+        background: #000086;
+        width: auto;
+        height: auto;
+        position: absolute;
+        margin: 6.2% 18% 0% 20%;
+        top: 1;
+        z-index: 3;
+        
+    
+    }
+    .nav-bar2 {
+        position: absolute; 
+        width: 89vw;
+        box-sizing: border-box;
+        display: flexbox;
+        background-color: #b3b3b3;
+        gap: 2rem;
+        padding: 0% 0% 0% 0%;
+        margin: 0% -2% 0% 3%;
+        align-items: stretch;
+        z-index: 1;
+        border: 1px solid transparent;
+        border-bottom-color: white;
+    }
+    .control-tab {
+        display: block;
+        margin: 0% -33.5% 0% 0%;
+        padding: 3px 3px 0px 0px;
+        position: relative;
+        text-align: right;
+        
+    }
+    
+    
+    .close-icon {
+        margin-left: 3px;
+    }
+}
+
+@media (max-width: 810px) {
+    .nav-bar-container {
+        background: #000086;
+        width: auto;
+        height: auto;
+        position: absolute;
+        margin: 6.2% 18% 0% 20%;
+        top: 1;
+        z-index: 3;
+        
+    
+    }
+    .nav-bar2 {
+        position: absolute; 
+        width: 89vw;
+        box-sizing: border-box;
+        display: flexbox;
+        background-color: #b3b3b3;
+        gap: 2rem;
+        padding: 0% 0% 0% 0%;
+        margin: 0% -2% 0% 3%;
+        align-items: stretch;
+        z-index: 1;
+        border: 1px solid transparent;
+        border-bottom-color: white;
+    }
+    .control-tab {
+        display: block;
+        margin: 0% -33.5% 0% 0%;
+        padding: 3px 3px 0px 0px;
+        position: relative;
+        text-align: right;
+        
+    }
+    
+    
+    .close-icon {
+        margin-left: 3px;
+    }
+}

@@ -36,3 +36,42 @@
     height: auto;
     padding-left: 5%;
 }
+
+@media (max-width: 780px) {
+    .hifi-container {
+        width: 100%;
+        padding-left: 0%;
+        display:block;
+    }
+    .hifiimg-container {
+        width: 100%;
+        padding-left: 5%;
+        
+    }
+}
+
+@media (max-width: 805px) {
+    .hifi-container {
+        width: 100%;
+        padding-left: 0%;
+        display:block;
+    }
+    .hifiimg-container {
+        width: 100%;
+        padding-left: 5%;
+        
+    }
+}
+
+@media (max-width: 810px) {
+    .hifi-container {
+        width: 100%;
+        padding-left: 0%;
+        display:block;
+    }
+    .hifiimg-container {
+        width: 100%;
+        padding-left: 5%;
+        
+    }
+}

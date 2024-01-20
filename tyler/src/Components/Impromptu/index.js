@@ -51,7 +51,7 @@ const Impromptu = () => {
                     <div className = 'prototype-img-container'>
                         <img src = {prototype1} alt = 'Prototype Example' className = 'prototype-img'></img>
                         <img src = {prototype2} alt = 'Prototype Example' className = 'prototype-img'></img>
-                        <img src = {prototype2} alt = 'Prototype Example' className = 'prototype-img'></img>
+                        <img src = {prototype2} alt = 'Prototype Example' className = 'prototype-img prototype-img1'></img>
                     </div>
                     <p className = 'text-zone-p'>We set up a two-day scenario in which a new day began and users received an alert from Impromptu about their prompt for the day. Typically seven hours is given to fulfill the prompt, but for the sake of time, our user spent 10 minutes on their picture taking adventures. </p>
                     <p className = 'text-zone-p'>In order to simulate a communal viewing experience, the photo submissions were uploaded to google photos where users were able to comment on google photos and react via sticky notes corresponding to different emojis. </p>

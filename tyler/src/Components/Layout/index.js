@@ -8,6 +8,7 @@ import background1390 from '../../assets/images/Portfolio_Background1390.png';
 import background1240 from '../../assets/images/Portfolio_Background1240.png';
 import background1450 from '../../assets/images/Portfolio_Background1450.png';
 import background1024 from '../../assets/images/Portfolio_Background1024.png';
+import background1280x800 from '../../assets/images/Portfolio_Background1280x800.png';
 
 
 
