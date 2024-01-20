@@ -7,7 +7,7 @@
         background-attachment: absolute;
         //overflow-y:scroll;
         //overflow-x:hidden;
-        padding: 0% 0% 55vh 0%;
+        padding: 0% 0% 49vh 0%;
         margin: 8.6% 1.8% 0% 3.3%;
         border: 1px solid;
         border-color: transparent black black white;
@@ -17,8 +17,8 @@
     .windows-gif {
         position: absolute;
         scale: 70%;
-        left: 25vw;
-        bottom: 8vh;
+        left: 30vw;
+        bottom: 12vh;
         animation: fadeIn 1s 5.5s backwards;
         white-space: nowrap;  
         z-index: 0;
@@ -49,14 +49,7 @@
             animation-delay: .5s;
         animation-fill-mode: forwards;
     }
-//    @keyframes .text-zone2 typing {
-//        from { width: 0 }
-//        to { width: 60% }
-//    }
-//    @keyframes blink-caret {
-//        from, to { border-color: transparent }
-//        50% { border-color: white; }
-//    }
+
     
     .text-zone3 {
         overflow: hidden;
@@ -169,5 +162,31 @@
         padding: 0% 0% 55vh 0%;
         margin: 8.6% 1.8% 0% 3.3%;
         
+    }
+}
+
+@media (max-width: 1450px) {
+    .backgroundclr {
+        padding: 0vh 0vh 50vh 0vh;
+        margin: 10.6% 1.8% 0% 3.3%;
+    }
+    .windows-gif {
+        top: 1vh;
+        
+    }
+}
+
+@media (max-width: 1240px) {
+    .text-zone2 {
+        padding-top: 5%;;
+    }
+    .text-zone3 {
+        padding-top: 5%;;
+    }
+    .text-zone4 {
+        padding-top: 5%;;
+    }
+    h2 {
+        padding-top: 1%;
     }
 }

@@ -6,6 +6,8 @@ import background1700 from '../../assets/images/Portfolio_Background1700.png';
 import background1500 from '../../assets/images/Portfolio_Background1500.png';
 import background1390 from '../../assets/images/Portfolio_Background1390.png';
 import background1240 from '../../assets/images/Portfolio_Background1240.png';
+import background1450 from '../../assets/images/Portfolio_Background1450.png';
+import background1024 from '../../assets/images/Portfolio_Background1024.png';
 
 
 

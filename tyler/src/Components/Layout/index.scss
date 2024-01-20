@@ -115,6 +115,39 @@
     }
 }
 
+@media (max-width: 1450px) {
+    .page {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url('../../assets/images/Portfolio_Background1450.png');
+        background-attachment: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+    }
+    .container {
+        width: 70%;
+        margin: 11% 11% 0% 19.8%;
+        height: 60%;
+        
+    }
+    .nav-bar-container {
+        margin: 11.2% 20% 0% 20%;
+        width: 69.7%;
+    }
+
+
+
+    .socials {
+        width: 100%;
+        position: fixed;
+        top: 79.8%;
+        left: 90%;
+    }
+}
+
 @media (max-width: 1390px) {
     .page {
         width: 100%;
@@ -142,10 +175,7 @@
         margin: 8.2% 20% 0% 20%;
         
     }
-    .backgroundclr {
-        padding: 0% 0% 53vh 0%;
-        margin: 10.6% 1.8% 0% 3.3%;
-    }
+    
 }
 
 @media (max-width: 1240px) {
@@ -159,5 +189,43 @@
         background-repeat: no-repeat;
         margin: 0px;
         background-size: cover;
+    }
+    .nav-bar-container {
+        margin: 12.2% 20% 0% 20%;
+        
+    }
+    .container {
+        margin: 12% 11% 0% 19.8%;
+        height: 62%;
+        
+    }
+}
+
+@media (max-width: 1040px) {
+    .page {  
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-image: url('../../assets/images/Portfolio_Background1024.png');
+        background-attachment: absolute;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin: 0px;
+        background-size: cover;
+    }
+    .nav-bar-container {
+        margin: 12.2% 20% 0% 20%;
+        
+    }
+    .container {
+        margin: 12% 11% 0% 19.8%;
+        height: 62%;
+        
+    }
+    .socials {
+        width: 100%;
+        position: fixed;
+        top: 80.8%;
+        left: 85%;
     }
 }
