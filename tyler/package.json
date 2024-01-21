@@ -1,7 +1,7 @@
 {
   "name": "tyler",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
