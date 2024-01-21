@@ -59,7 +59,7 @@ const QuickFit = () => {
                     <p className = 'text-zone-p'>Our Low Fidelity Prototype first brought us through three pages asking introductory questions like experience level, fitness goal, and workout type. We liked the idea of the questions because it would allow us to best personalize a plan, but after receiving <b>user feedback,</b> we saw that it could come off as too much for the user so we planned on switching that. It also left us no room for a certain group of our <b>target audience,</b> users who don’t really know specifically what they want. </p>
                     <p className = 'text-zone-p'>We also provided an area to specifically <b>demonstrate the exercise</b> as many users are visual learners and can’t go by with the “crude” drawings on the machines</p>
                     <div className = 'lofi-video-demo-container'>
-                        <video width="600" height="auto" controls>
+                        <video width="600" height="auto" controls className = 'lofivid'>
                             <source src= {lofiprototype1} type="video/mp4"></source>
                             Your browser does not support the video tag.
                         </video>
@@ -68,7 +68,7 @@ const QuickFit = () => {
                     <p className = 'text-zone-p'>Our second low fidelity prototype introduced minimal changes with a more in depth look on how a real experience with QuickFit Kiosk is. Through <b>feedback among peers,</b> we realized it would be extremely inconvenient to have to remember and record all of the demonstration’s so we thought it would be beneficial to add a feature where users could have their curated plans on their phone. </p>
                     <p className = 'text-zone-p'>We also introduced a new feature where users would be able to find ready made workout plans tailored to their experience level and muscle groups. The more advanced a user chooses, the more difficult the workouts get. This allows us to <b>accommodate users of all experience levels and goals,</b> and not just reach those who don’t know how to workout. In case a user is not able to find what they were looking for, calling an assistant would be available at all times.</p>
                     <div className = 'lofi-video-demo-container'>
-                        <video width="600" height="auto" controls>
+                        <video width="600" height="auto" controls className = 'lofivid'>
                             <source src= {lofiprototype2} type="video/mp4"></source>
                             Your browser does not support the video tag.
                         </video>
@@ -93,7 +93,7 @@ const QuickFit = () => {
                             </ol>
                         </div>
                         <div className = 'user-testing-video-container'>
-                            <video width="600" height="auto" controls>
+                            <video width="600" height="auto" controls className = 'lofivid'>
                                 <source src= {usertestingvideo} type="video/mp4"></source>
                                 Your browser does not support the video tag.
                             </video>

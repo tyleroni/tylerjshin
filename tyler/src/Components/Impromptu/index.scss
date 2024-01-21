@@ -231,3 +231,13 @@
         width: 100%;
     }
 }
+
+@media (max-width: 420px) {
+    .prototype-img {
+        width: 43%;
+        height:auto;
+    }
+    .doodles-img {
+        padding-left: 0%;
+    }
+}

@@ -157,3 +157,29 @@
     }
 }
 
+@media (max-width: 420px) {
+    .backgroundclr-contact {
+        padding: 0% 0% 140.5% 0%;
+        margin: 8.6% 1.8% 0% 3.3%;
+        
+    }
+    .contact-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 380px) {
+    .backgroundclr-contact {
+        padding: 0% 0% 140% 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        
+    }
+}
+
+@media (max-width: 380px) and (max-height: 670px) {
+    .backgroundclr-contact {
+        padding: 0% 0% 100% 0% !important;
+        margin: 8.6% 1.8% 0% 3.3%;
+        
+    }
+}
